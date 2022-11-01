@@ -32,7 +32,7 @@ function Profile() {
 
         <div className='grid justify-items-center px-16'>
           <a
-            href='http://twitter.com/64eyes'
+            href='http://twitter.com/64_eyes'
             className='rounded-[10px] p-3 text-center w-[90%] my-2 bg-[#EAECF0]'
           >
             Twitter Link
