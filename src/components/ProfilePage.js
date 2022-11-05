@@ -80,6 +80,13 @@ function Profile() {
           >
             Design Books
           </a>
+          <a
+            id='contact'
+            href='/contact'
+            className='rounded-[10px] p-3 text-center w-[90%] my-2 bg-[#EAECF0]'
+          >
+            Contact Me
+          </a>
         </div>
 
         <div className='profile_bottom space-x-6'>
