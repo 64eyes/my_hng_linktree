@@ -2,7 +2,7 @@ import { Routes, Route } from "react-router-dom";
 import "bootstrap/dist/css/bootstrap.min.css";
 import ProfilePage from "./components/ProfilePage";
 import Footer from "./components/Footer";
-import ContactPage from "./components/ContactPage";
+import { ContactPage } from "./components/ContactPage";
 import "./App.css";
 
 function App() {

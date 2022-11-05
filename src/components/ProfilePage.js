@@ -89,7 +89,7 @@ function Profile() {
           </a>
         </div>
 
-        <div className='profile_bottom space-x-6'>
+        <div className='d-flex profile_bottom justify-content-center my-3 space-x-6'>
           <img src={slack} />
           <img src={githubicon} />
         </div>

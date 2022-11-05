@@ -1,7 +1,7 @@
 import { useState } from "react";
 import Toast from "react-bootstrap/Toast";
 
-export const Contact = () => {
+export const ContactPage = () => {
   const [checkbox, setCheckbox] = useState(false);
   //state for checkbox
   const [input, setInput] = useState({
@@ -47,13 +47,13 @@ export const Contact = () => {
     <div className='container-fluid-sm px-3 pt-5'>
       <div className='contact-border'>
         <h2
-          className='pb-2 mt-5'
+          className='text-left pb-2 mt-5'
           style={{ color: "#101828", fontSize: "36px" }}
         >
           Contact Me
         </h2>
 
-        <p style={{ color: "#475467", fontSize: "20px" }}>
+        <p className='text-left' style={{ color: "#475467", fontSize: "20px" }}>
           Hi there, contact me to ask me about anything you have in mind.
         </p>
 
@@ -78,7 +78,7 @@ export const Contact = () => {
 
         <form onSubmit={handleSubmit}>
           <div className='row mb-3'>
-            <div className='col-sm'>
+            <div className='text-left col-sm'>
               <label htmlFor='firstName' className='mb-1 mt-4'>
                 First name
               </label>
@@ -95,7 +95,7 @@ export const Contact = () => {
               />
             </div>
 
-            <div className='col-sm'>
+            <div className='text-left col-sm'>
               <label htmlFor='lastName' className='mb-1 mt-4'>
                 Last name
               </label>
@@ -114,7 +114,7 @@ export const Contact = () => {
           </div>
 
           <div className='grid mb-4'>
-            <label htmlFor='email' className='mb-1 mt-2'>
+            <label htmlFor='email' className='text-left mb-1 mt-2'>
               Email
             </label>
             <input
@@ -130,7 +130,7 @@ export const Contact = () => {
             />
           </div>
 
-          <div>
+          <div className='text-left'>
             <label htmlFor='message' className='mb-1 mt-2'>
               Message
             </label>
@@ -149,7 +149,7 @@ export const Contact = () => {
             <div className='invalid-feedback'>Please enter a message.</div>
           </div>
 
-          <div className='form-check mb-3 mt-3'>
+          <div className='text-left form-check mb-3 mt-3'>
             <input
               className='form-check-input'
               type='checkbox'
